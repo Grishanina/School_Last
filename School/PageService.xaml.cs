@@ -23,7 +23,7 @@ namespace School
         public PageService()
         {
             InitializeComponent();
-            ClassBase.BD = new Entities1();
+            ClassBase.BD = new Entities2();
             listProduct.ItemsSource = ClassBase.BD.Service.ToList();
         }
 

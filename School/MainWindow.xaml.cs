@@ -23,7 +23,7 @@ namespace School
         public MainWindow()
         {
             InitializeComponent();
-            ClassBase.BD = new Entities1();
+            ClassBase.BD = new Entities2();
             ClassFrame.Mfrm = frm;
             ClassFrame.Mfrm.Navigate(new PageService());
 

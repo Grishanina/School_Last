@@ -8,6 +8,6 @@ namespace School
 {
     internal class ClassBase
     {
-        public static Entities1 BD;
+        public static Entities2 BD;
     }
 }
